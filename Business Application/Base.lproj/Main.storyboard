@@ -35,6 +35,9 @@
                                                 <state key="normal" title="Services">
                                                     <color key="titleColor" red="0.0" green="0.2767878473" blue="0.68934482340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="serviceBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xsj-A1-8Pc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-3N-YKN">
                                                 <rect key="frame" x="0.0" y="62.5" width="382" height="43"/>
@@ -43,6 +46,9 @@
                                                 <state key="normal" title="Portfolio">
                                                     <color key="titleColor" red="0.0" green="0.29069873454927586" blue="0.72261734878071071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="portfolioBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Zy-54-hDZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npR-0w-6ii">
                                                 <rect key="frame" x="0.0" y="125.5" width="382" height="42.5"/>
@@ -51,6 +57,9 @@
                                                 <state key="normal" title="About Us">
                                                     <color key="titleColor" red="0.0" green="0.29043550023261627" blue="0.72196300233401023" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="aboutUsBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I93-Yp-JPl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFA-r5-jbW">
                                                 <rect key="frame" x="0.0" y="188" width="382" height="42.5"/>
@@ -59,6 +68,9 @@
                                                 <state key="normal" title="Contact Us">
                                                     <color key="titleColor" red="0.0" green="0.2919829989426756" blue="0.72580976629340099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="contactUsBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfq-3w-Ex2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prL-ju-EWg">
                                                 <rect key="frame" x="0.0" y="250.5" width="382" height="42"/>
@@ -67,6 +79,9 @@
                                                 <state key="normal" title="Social Links">
                                                     <color key="titleColor" red="0.0" green="0.28773934268622409" blue="0.7152609084253807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="socialLinksBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UR5-aS-7Ht"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -85,6 +100,13 @@
                     <navigationItem key="navigationItem" title="Home" id="KF7-hT-G1z">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Fgw-jt-UlQ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="aboutUsBtn" destination="npR-0w-6ii" id="xXb-CD-P9d"/>
+                        <outlet property="contactUsBtn" destination="DFA-r5-jbW" id="Zlc-tW-e2e"/>
+                        <outlet property="portfolioBtn" destination="Esl-3N-YKN" id="eKk-P5-OEF"/>
+                        <outlet property="servicesBtn" destination="evj-Af-Buu" id="EdH-Ed-hQl"/>
+                        <outlet property="socialLinksBtn" destination="prL-ju-EWg" id="fsD-m9-u87"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
