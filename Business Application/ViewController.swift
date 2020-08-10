@@ -23,15 +23,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func serviceBtnWasPressed(_ sender: Any) {
+        print("Service Pressed")
     }
     
     @IBAction func portfolioBtnWasPressed(_ sender: Any) {
+        print("Portfolio Pressed")
     }
     @IBAction func aboutUsBtnWasPressed(_ sender: Any) {
+        print("AboutUS Pressed")
     }
     @IBAction func contactUsBtnWasPressed(_ sender: Any) {
+        print("ContactUs Pressed")
     }
     @IBAction func socialLinksBtnWasPressed(_ sender: Any) {
+        print("SocialLinks Pressed")
     }
     
     
