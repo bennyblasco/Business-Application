@@ -19,7 +19,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        servicesBtn.layer.cornerRadius = 5
+        portfolioBtn.layer.cornerRadius = 5
+        aboutUsBtn.layer.cornerRadius = 5
+        contactUsBtn.layer.cornerRadius = 5
+        socialLinksBtn.layer.cornerRadius = 5
     }
 
     @IBAction func serviceBtnWasPressed(_ sender: Any) {
