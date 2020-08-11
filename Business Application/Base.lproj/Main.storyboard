@@ -30,7 +30,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evj-Af-Buu">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="42.5"/>
-                                                <color key="backgroundColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Services">
                                                     <color key="titleColor" red="0.0" green="0.2767878473" blue="0.68934482340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,7 +41,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-3N-YKN">
                                                 <rect key="frame" x="0.0" y="62.5" width="382" height="43"/>
-                                                <color key="backgroundColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Portfolio">
                                                     <color key="titleColor" red="0.0" green="0.29069873454927586" blue="0.72261734878071071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,7 +52,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npR-0w-6ii">
                                                 <rect key="frame" x="0.0" y="125.5" width="382" height="42.5"/>
-                                                <color key="backgroundColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="About Us">
                                                     <color key="titleColor" red="0.0" green="0.29043550023261627" blue="0.72196300233401023" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,7 +63,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFA-r5-jbW">
                                                 <rect key="frame" x="0.0" y="188" width="382" height="42.5"/>
-                                                <color key="backgroundColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Contact Us">
                                                     <color key="titleColor" red="0.0" green="0.2919829989426756" blue="0.72580976629340099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,7 +74,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prL-ju-EWg">
                                                 <rect key="frame" x="0.0" y="250.5" width="382" height="42"/>
-                                                <color key="backgroundColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Social Links">
                                                     <color key="titleColor" red="0.0" green="0.28773934268622409" blue="0.7152609084253807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -106,6 +106,7 @@
                         <outlet property="portfolioBtn" destination="Esl-3N-YKN" id="eKk-P5-OEF"/>
                         <outlet property="servicesBtn" destination="evj-Af-Buu" id="EdH-Ed-hQl"/>
                         <outlet property="socialLinksBtn" destination="prL-ju-EWg" id="fsD-m9-u87"/>
+                        <outlet property="techelopersImg" destination="xRc-iP-al3" id="yIN-XI-7jk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -187,7 +188,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.014017167556309022" green="0.21505477507244267" blue="0.42243020304568524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.01401716756" green="0.21505477510000001" blue="0.422430203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="1" green="0.8762361407" blue="0.29489031430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="DD9-f2-ZAS" kind="relationship" relationship="viewControllers" id="z0x-ML-UQI"/>
