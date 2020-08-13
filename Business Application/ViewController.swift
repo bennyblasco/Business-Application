@@ -30,12 +30,12 @@ class ViewController: UIViewController {
 
     @IBAction func serviceBtnWasPressed(_ sender: Any) {
         print("Service Pressed")
-        self.tabBarController?.selectedIndex = 2
+        self.tabBarController?.selectedIndex = 4
     }
     
     @IBAction func portfolioBtnWasPressed(_ sender: Any) {
         print("Portfolio Pressed")
-        self.tabBarController?.selectedIndex = 3
+        self.tabBarController?.selectedIndex = 2
     }
     @IBAction func aboutUsBtnWasPressed(_ sender: Any) {
         print("AboutUS Pressed")
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     }
     @IBAction func contactUsBtnWasPressed(_ sender: Any) {
         print("ContactUs Pressed")
-        self.tabBarController?.selectedIndex = 4
+        self.tabBarController?.selectedIndex = 3
     }
     @IBAction func socialLinksBtnWasPressed(_ sender: Any) {
         print("SocialLinks Pressed")
