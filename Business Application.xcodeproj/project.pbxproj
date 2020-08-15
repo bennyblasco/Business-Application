@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852112424E7F02B00FC6B87 /* ServicesTableViewController.swift */; };
+		1852112724E7F15600FC6B87 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852112624E7F15600FC6B87 /* ServicesTableViewCell.swift */; };
 		18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18655C6E24D61647005B70E5 /* AppDelegate.swift */; };
 		18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18655C7024D61647005B70E5 /* SceneDelegate.swift */; };
 		18655C7324D61647005B70E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18655C7224D61647005B70E5 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1852112424E7F02B00FC6B87 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		1852112624E7F15600FC6B87 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 		18655C6B24D61647005B70E5 /* Business Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18655C6E24D61647005B70E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18655C7024D61647005B70E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				1852112424E7F02B00FC6B87 /* ServicesTableViewController.swift */,
+				1852112624E7F15600FC6B87 /* ServicesTableViewCell.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1852112724E7F15600FC6B87 /* ServicesTableViewCell.swift in Sources */,
 				18655C7324D61647005B70E5 /* ViewController.swift in Sources */,
 				1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */,
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
