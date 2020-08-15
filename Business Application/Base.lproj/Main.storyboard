@@ -118,7 +118,7 @@
             <objects>
                 <tableViewController id="KUq-aM-aUG" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lEb-0A-8qt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -129,6 +129,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Lfr-Ms-ZhO" kind="show" id="gpF-E0-X5x"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -141,6 +144,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="exh-rd-fBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="-635.49107142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="maK-dD-cN9">
+            <objects>
+                <viewController id="Lfr-Ms-ZhO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZJD-0D-LkB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="WEv-mC-LhJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MEk-rk-Qsg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ldi-dF-Myi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1904" y="-635"/>
         </scene>
         <!--Contact Us-->
         <scene sceneID="5oC-Nf-g5i">
@@ -245,7 +264,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iLI-Zh-sb8" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Services" image="Tab3" id="der-nh-yrC"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JHG-06-Odt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="JHG-06-Odt">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
