@@ -116,7 +116,7 @@
         <!--Services-->
         <scene sceneID="NhF-mI-rZO">
             <objects>
-                <tableViewController id="KUq-aM-aUG" sceneMemberID="viewController">
+                <tableViewController id="KUq-aM-aUG" customClass="ServicesTableViewController" customModule="Business_Application" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lEb-0A-8qt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,10 +145,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="-635.49107142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Services View Controller-->
         <scene sceneID="maK-dD-cN9">
             <objects>
-                <viewController id="Lfr-Ms-ZhO" sceneMemberID="viewController">
+                <viewController id="Lfr-Ms-ZhO" customClass="ServicesViewController" customModule="Business_Application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJD-0D-LkB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
