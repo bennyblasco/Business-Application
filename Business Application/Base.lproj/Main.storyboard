@@ -128,6 +128,17 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xQF-Kb-3de" id="cEp-cI-PaC">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Jth-VP-Myh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Jth-VP-Myh" firstAttribute="top" secondItem="cEp-cI-PaC" secondAttribute="top" id="5JO-7Q-S7D"/>
+                                        <constraint firstItem="Jth-VP-Myh" firstAttribute="leading" secondItem="cEp-cI-PaC" secondAttribute="leading" id="G9J-QT-0VA"/>
+                                        <constraint firstAttribute="trailing" secondItem="Jth-VP-Myh" secondAttribute="trailing" id="dYu-pm-FxI"/>
+                                        <constraint firstAttribute="bottom" secondItem="Jth-VP-Myh" secondAttribute="bottom" id="nS6-F7-iV7"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="Lfr-Ms-ZhO" kind="show" id="gpF-E0-X5x"/>
