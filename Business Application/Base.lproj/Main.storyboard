@@ -132,11 +132,21 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Jth-VP-Myh">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82P-07-lNW">
+                                            <rect key="frame" x="20" y="11" width="374" height="58"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Jth-VP-Myh" firstAttribute="top" secondItem="cEp-cI-PaC" secondAttribute="top" id="5JO-7Q-S7D"/>
                                         <constraint firstItem="Jth-VP-Myh" firstAttribute="leading" secondItem="cEp-cI-PaC" secondAttribute="leading" id="G9J-QT-0VA"/>
+                                        <constraint firstItem="82P-07-lNW" firstAttribute="bottom" secondItem="cEp-cI-PaC" secondAttribute="bottomMargin" id="Nou-34-e2e"/>
+                                        <constraint firstItem="82P-07-lNW" firstAttribute="trailing" secondItem="cEp-cI-PaC" secondAttribute="trailingMargin" id="U1F-mK-117"/>
+                                        <constraint firstItem="82P-07-lNW" firstAttribute="top" secondItem="cEp-cI-PaC" secondAttribute="topMargin" id="XLN-4v-Mp1"/>
                                         <constraint firstAttribute="trailing" secondItem="Jth-VP-Myh" secondAttribute="trailing" id="dYu-pm-FxI"/>
+                                        <constraint firstItem="82P-07-lNW" firstAttribute="leading" secondItem="cEp-cI-PaC" secondAttribute="leadingMargin" id="iZh-R2-KfC"/>
                                         <constraint firstAttribute="bottom" secondItem="Jth-VP-Myh" secondAttribute="bottom" id="nS6-F7-iV7"/>
                                     </constraints>
                                 </tableViewCellContentView>
