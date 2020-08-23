@@ -151,6 +151,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="cellTitle" destination="82P-07-lNW" id="mya-67-vNW"/>
                                     <segue destination="Lfr-Ms-ZhO" kind="show" id="gpF-E0-X5x"/>
                                 </connections>
                             </tableViewCell>
