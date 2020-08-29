@@ -10,7 +10,11 @@
 import UIKit
 
 class ServicesViewController: UIViewController {
-
+    @IBOutlet weak var detailImage: UIImageView!
+    @IBOutlet weak var detailDescription: UITextView!
+    
+    var sentData: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
