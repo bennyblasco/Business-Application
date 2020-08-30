@@ -28,11 +28,8 @@
                                         <rect key="frame" x="0.0" y="392.5" width="382" height="292.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evj-Af-Buu">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="42"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="42.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="evj-Af-Buu" secondAttribute="height" multiplier="191:21" id="646-vQ-8FK"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Services">
                                                     <color key="titleColor" red="0.0" green="0.2767878473" blue="0.68934482340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,11 +39,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-3N-YKN">
-                                                <rect key="frame" x="0.0" y="62" width="382" height="43"/>
+                                                <rect key="frame" x="0.0" y="62.5" width="382" height="43"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Esl-3N-YKN" secondAttribute="height" multiplier="382:43" id="lm7-08-GKT"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Portfolio">
                                                     <color key="titleColor" red="0.0" green="0.29069873454927586" blue="0.72261734878071071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,11 +50,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npR-0w-6ii">
-                                                <rect key="frame" x="0.0" y="125" width="382" height="43.5"/>
+                                                <rect key="frame" x="0.0" y="125.5" width="382" height="42.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="npR-0w-6ii" secondAttribute="height" multiplier="191:21" id="kSz-iS-wvl"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="About Us">
                                                     <color key="titleColor" red="0.0" green="0.29043550023261627" blue="0.72196300233401023" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,11 +61,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFA-r5-jbW">
-                                                <rect key="frame" x="0.0" y="188.5" width="382" height="42"/>
+                                                <rect key="frame" x="0.0" y="188" width="382" height="42.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="DFA-r5-jbW" secondAttribute="height" multiplier="191:21" id="hpj-QA-c06"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Contact Us">
                                                     <color key="titleColor" red="0.0" green="0.2919829989426756" blue="0.72580976629340099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,9 +74,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prL-ju-EWg">
                                                 <rect key="frame" x="0.0" y="250.5" width="382" height="42"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="prL-ju-EWg" secondAttribute="height" multiplier="191:21" id="v2U-6g-LVW"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Social Links">
                                                     <color key="titleColor" red="0.0" green="0.28773934268622409" blue="0.7152609084253807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -208,7 +193,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="570-ci-9fs">
-                                <rect key="frame" x="0.0" y="189" width="414" height="536"/>
+                                <rect key="frame" x="20" y="199" width="374" height="526"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -218,9 +203,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="UvP-Pk-qum" firstAttribute="top" secondItem="WEv-mC-LhJ" secondAttribute="top" id="9fO-qn-KkX"/>
-                            <constraint firstItem="570-ci-9fs" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" id="G2r-nU-tek"/>
-                            <constraint firstItem="570-ci-9fs" firstAttribute="top" secondItem="P4y-QX-2nV" secondAttribute="bottom" constant="21" id="G8x-FX-d7K"/>
-                            <constraint firstItem="570-ci-9fs" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" id="O2j-ly-VbN"/>
+                            <constraint firstItem="570-ci-9fs" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" constant="-20" id="G2r-nU-tek"/>
+                            <constraint firstItem="570-ci-9fs" firstAttribute="top" secondItem="P4y-QX-2nV" secondAttribute="bottom" constant="31" id="G8x-FX-d7K"/>
+                            <constraint firstItem="570-ci-9fs" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" constant="20" id="O2j-ly-VbN"/>
                             <constraint firstItem="570-ci-9fs" firstAttribute="bottom" secondItem="WEv-mC-LhJ" secondAttribute="bottom" id="RWV-3p-FgM"/>
                             <constraint firstItem="P4y-QX-2nV" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" id="Ru8-je-cxP"/>
                             <constraint firstItem="P4y-QX-2nV" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" id="fX4-PO-IIY"/>
