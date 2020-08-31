@@ -163,7 +163,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="cellTitle" destination="82P-07-lNW" id="mya-67-vNW"/>
-                                    <segue destination="Lfr-Ms-ZhO" kind="show" id="gpF-E0-X5x"/>
+                                    <segue destination="Lfr-Ms-ZhO" kind="show" identifier="showDetail" id="gpF-E0-X5x"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -191,24 +191,30 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="P4y-QX-2nV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="OSY-90-Isw"/>
+                                </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="570-ci-9fs">
                                 <rect key="frame" x="20" y="199" width="374" height="526"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="UvP-Pk-qum" firstAttribute="top" secondItem="WEv-mC-LhJ" secondAttribute="top" id="9fO-qn-KkX"/>
+                            <constraint firstItem="P4y-QX-2nV" firstAttribute="top" secondItem="WEv-mC-LhJ" secondAttribute="top" id="EvU-Es-PlH"/>
                             <constraint firstItem="570-ci-9fs" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" constant="-20" id="G2r-nU-tek"/>
                             <constraint firstItem="570-ci-9fs" firstAttribute="top" secondItem="P4y-QX-2nV" secondAttribute="bottom" constant="31" id="G8x-FX-d7K"/>
+                            <constraint firstItem="P4y-QX-2nV" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" id="Npf-ot-oG2"/>
                             <constraint firstItem="570-ci-9fs" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" constant="20" id="O2j-ly-VbN"/>
                             <constraint firstItem="570-ci-9fs" firstAttribute="bottom" secondItem="WEv-mC-LhJ" secondAttribute="bottom" id="RWV-3p-FgM"/>
                             <constraint firstItem="P4y-QX-2nV" firstAttribute="trailing" secondItem="WEv-mC-LhJ" secondAttribute="trailing" id="Ru8-je-cxP"/>
                             <constraint firstItem="P4y-QX-2nV" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" id="fX4-PO-IIY"/>
+                            <constraint firstItem="P4y-QX-2nV" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" id="geZ-cd-ioC"/>
                             <constraint firstItem="UvP-Pk-qum" firstAttribute="bottom" secondItem="WEv-mC-LhJ" secondAttribute="bottom" id="i7u-cG-SrJ"/>
                             <constraint firstItem="UvP-Pk-qum" firstAttribute="leading" secondItem="WEv-mC-LhJ" secondAttribute="leading" id="mc7-LR-qz8"/>
                             <constraint firstItem="P4y-QX-2nV" firstAttribute="top" secondItem="WEv-mC-LhJ" secondAttribute="top" id="rkc-hZ-Xfr"/>
