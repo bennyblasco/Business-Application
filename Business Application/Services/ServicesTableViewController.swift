@@ -15,7 +15,8 @@ class ServicesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.backgroundView = UIImageView(image: UIImage(named: "Background")) 
+        tableView.backgroundView = UIImageView(image: UIImage(named: "Background"))
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     // MARK: - Table view data source
