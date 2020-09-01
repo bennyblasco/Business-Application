@@ -10,7 +10,7 @@ import UIKit
 
 class ServicesTableViewController: UITableViewController {
     
-    var titleList = ["Service 1", "Service 2", "Service 3", "Service 4", "Service 5"]
+    var titleList = ["Programming Tutorials", "App Development", "Web Development", "Consultation", "Advertisement"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
