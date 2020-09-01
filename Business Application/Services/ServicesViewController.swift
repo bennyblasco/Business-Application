@@ -22,23 +22,23 @@ class ServicesViewController: UIViewController {
         
         if navigationItem.title == "Service 1"{
             detailImage.image = UIImage(named: "Image1")
-            detailDescription.text = "This is image 1"
+            detailDescription.text = "PROGRAMMING TUTORIALS"
         }
         if navigationItem.title == "Service 2"{
             detailImage.image = UIImage(named: "Image2")
-            detailDescription.text = "This is image 2"
+            detailDescription.text = "APP DEVELOPMENT"
         }
         if navigationItem.title == "Service 3"{
             detailImage.image = UIImage(named: "Image3")
-            detailDescription.text = "This is image 3"
+            detailDescription.text = "WEB DEVELOPMENT"
         }
         if navigationItem.title == "Service 4"{
             detailImage.image = UIImage(named: "Image4")
-            detailDescription.text = "This is image 4"
+            detailDescription.text = "CONSULTATION"
         }
         if navigationItem.title == "Service 5"{
             detailImage.image = UIImage(named: "Image5")
-            detailDescription.text = "This is image 5"
+            detailDescription.text = "ADVERTISING"
         }
         
     }
