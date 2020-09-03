@@ -16,6 +16,7 @@
 		18655C7824D61651005B70E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7724D61651005B70E5 /* Assets.xcassets */; };
 		18655C7B24D61651005B70E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7924D61651005B70E5 /* LaunchScreen.storyboard */; };
 		1888D60A24EB3DA900A70B1A /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D60924EB3DA900A70B1A /* ServicesViewController.swift */; };
+		18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A472500DEB7001357AE /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18655C7A24D61651005B70E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18655C7C24D61651005B70E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1888D60924EB3DA900A70B1A /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		18E62A472500DEB7001357AE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +78,21 @@
 				18655C7024D61647005B70E5 /* SceneDelegate.swift */,
 				18655C7224D61647005B70E5 /* ViewController.swift */,
 				1852112324E7EFBA00FC6B87 /* Services */,
+				18E62A462500DE8B001357AE /* About Us */,
 				18655C7424D61647005B70E5 /* Main.storyboard */,
 				18655C7724D61651005B70E5 /* Assets.xcassets */,
 				18655C7924D61651005B70E5 /* LaunchScreen.storyboard */,
 				18655C7C24D61651005B70E5 /* Info.plist */,
 			);
 			path = "Business Application";
+			sourceTree = "<group>";
+		};
+		18E62A462500DE8B001357AE /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				18E62A472500DEB7001357AE /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				1852112724E7F15600FC6B87 /* ServicesTableViewCell.swift in Sources */,
 				18655C7324D61647005B70E5 /* ViewController.swift in Sources */,
 				1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */,
+				18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */,
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
 				18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */,
 			);
