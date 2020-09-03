@@ -11,13 +11,13 @@ import UIKit
 class AboutUsViewController: UIViewController {
 
     @IBOutlet weak var contactUsButton: UIButton!
-    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var techelopersImg: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         contactUsButton.layer.cornerRadius = 10
-        logo.layer.cornerRadius = 20
+        techelopersImg.layer.cornerRadius = 20
 
 
         // Do any additional setup after loading the view.

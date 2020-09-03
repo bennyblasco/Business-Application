@@ -321,7 +321,7 @@
                     <navigationItem key="navigationItem" title="About Us" id="Naw-pB-Fbn"/>
                     <connections>
                         <outlet property="contactUsButton" destination="GwT-rb-hNY" id="2zs-Ks-lYt"/>
-                        <outlet property="logo" destination="v8T-5G-EhG" id="Jbv-Xn-xI9"/>
+                        <outlet property="techelopersImg" destination="v8T-5G-EhG" id="FFN-st-pW0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cw0-h3-ZBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
