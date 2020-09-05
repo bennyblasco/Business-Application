@@ -36,7 +36,7 @@ class ServicesViewController: UIViewController {
             detailImage.image = UIImage(named: "Image4")
             detailDescription.text = "CONSULTATION"
         }
-        if navigationItem.title == "Advertisement "{
+        if navigationItem.title == "Advertisement"{
             detailImage.image = UIImage(named: "Image5")
             detailDescription.text = "ADVERTISING"
         }

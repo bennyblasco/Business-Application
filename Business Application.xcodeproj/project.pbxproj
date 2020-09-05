@@ -16,6 +16,8 @@
 		18655C7824D61651005B70E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7724D61651005B70E5 /* Assets.xcassets */; };
 		18655C7B24D61651005B70E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7924D61651005B70E5 /* LaunchScreen.storyboard */; };
 		1888D60A24EB3DA900A70B1A /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D60924EB3DA900A70B1A /* ServicesViewController.swift */; };
+		18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */; };
+		18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C4C3250434DB00FB9F8D /* MapKit.framework */; };
 		18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A472500DEB7001357AE /* AboutUsViewController.swift */; };
 		18E62A4B2500F751001357AE /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A4A2500F751001357AE /* PortfolioCollectionViewController.swift */; };
 		18E62A4D2500FAF0001357AE /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A4C2500FAF0001357AE /* PortfolioCollectionViewCell.swift */; };
@@ -33,6 +35,8 @@
 		18655C7A24D61651005B70E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18655C7C24D61651005B70E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1888D60924EB3DA900A70B1A /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		18B9C4C3250434DB00FB9F8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		18E62A472500DEB7001357AE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		18E62A4A2500F751001357AE /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
 		18E62A4C2500FAF0001357AE /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,7 @@
 			children = (
 				18655C6D24D61647005B70E5 /* Business Application */,
 				18655C6C24D61647005B70E5 /* Products */,
+				18B9C4C2250434DB00FB9F8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +90,29 @@
 				1852112324E7EFBA00FC6B87 /* Services */,
 				18E62A462500DE8B001357AE /* About Us */,
 				18E62A492500F6C2001357AE /* Portfolio */,
+				18B9C4BF250430A400FB9F8D /* Contact Us */,
 				18655C7424D61647005B70E5 /* Main.storyboard */,
 				18655C7724D61651005B70E5 /* Assets.xcassets */,
 				18655C7924D61651005B70E5 /* LaunchScreen.storyboard */,
 				18655C7C24D61651005B70E5 /* Info.plist */,
 			);
 			path = "Business Application";
+			sourceTree = "<group>";
+		};
+		18B9C4BF250430A400FB9F8D /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		18B9C4C2250434DB00FB9F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B9C4C3250434DB00FB9F8D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		18E62A462500DE8B001357AE /* About Us */ = {
@@ -187,6 +210,7 @@
 				1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */,
 				18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */,
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
+				18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */,
 				18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */,
 				18E62A4D2500FAF0001357AE /* PortfolioCollectionViewCell.swift in Sources */,
 			);
