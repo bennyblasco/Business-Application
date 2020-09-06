@@ -264,6 +264,9 @@
                                         <state key="normal" title="Directions">
                                             <color key="titleColor" red="0.0" green="0.29198299890000001" blue="0.72580976630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="directionsBtnWasPressed:" destination="RYy-Qh-BjM" eventType="touchUpInside" id="iZU-c4-lmJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl8-SE-0P6">
                                         <rect key="frame" x="0.0" y="108" width="343" height="43"/>
@@ -272,6 +275,9 @@
                                         <state key="normal" title="Call Us">
                                             <color key="titleColor" red="0.0" green="0.29198299890000001" blue="0.72580976630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="callUsBtnWasPressed:" destination="RYy-Qh-BjM" eventType="touchUpInside" id="nVK-PY-Oqn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEX-4E-Z9W">
                                         <rect key="frame" x="0.0" y="162" width="343" height="43"/>
@@ -280,6 +286,9 @@
                                         <state key="normal" title="Email Us">
                                             <color key="titleColor" red="0.0" green="0.29198299890000001" blue="0.72580976630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="emailUsBtnWasPressed:" destination="RYy-Qh-BjM" eventType="touchUpInside" id="d0m-uE-RRf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdq-Xg-gt2">
                                         <rect key="frame" x="0.0" y="216" width="343" height="43"/>
@@ -288,6 +297,9 @@
                                         <state key="normal" title="Social Links">
                                             <color key="titleColor" red="0.0" green="0.29198299890000001" blue="0.72580976630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="socialLinksBtnWasPressed:" destination="RYy-Qh-BjM" eventType="touchUpInside" id="fV2-fj-DQU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

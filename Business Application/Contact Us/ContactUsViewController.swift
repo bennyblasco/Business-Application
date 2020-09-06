@@ -21,6 +21,7 @@ class ContactUsViewController: UIViewController {
     var longitude = 7.430556
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         directionBtn.layer.cornerRadius = 10
@@ -40,5 +41,14 @@ class ContactUsViewController: UIViewController {
         pinAnn.subtitle = "Galadimawa, Abuja, Nigeria"
         self.mapView.addAnnotation(pinAnn)
     }
+    @IBAction func directionsBtnWasPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://maps.apple.com/maps?daddr=\(latitude),\(longitude)")!, options: [:], completionHandler: nil)
+    }
     
+    @IBAction func callUsBtnWasPressed(_ sender: Any) {
+    }
+    @IBAction func emailUsBtnWasPressed(_ sender: Any) {
+    }
+    @IBAction func socialLinksBtnWasPressed(_ sender: Any) {
+    }
 }
