@@ -46,6 +46,7 @@ class ContactUsViewController: UIViewController {
     }
     
     @IBAction func callUsBtnWasPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "tel://+2347031610046")!, options: [:], completionHandler: nil)
     }
     @IBAction func emailUsBtnWasPressed(_ sender: Any) {
     }
