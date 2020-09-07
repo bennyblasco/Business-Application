@@ -17,8 +17,8 @@ class ContactUsViewController: UIViewController {
     @IBOutlet weak var emailUsBtn: UIButton!
     @IBOutlet weak var socialLinksBtn: UIButton!
     
-    var latitude = 8.984722
-    var longitude = 7.430556
+    var latitude = 9
+    var longitude = 7.425488000000001
     
     
     
