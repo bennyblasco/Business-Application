@@ -29,6 +29,8 @@ class ContactUsViewController: UIViewController {
         emailUsBtn.layer.cornerRadius = 10
         socialLinksBtn.layer.cornerRadius = 10
         
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
         let span = MKCoordinateSpan(latitudeDelta: 0.0005, longitudeDelta: 0.0005)
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), span: span)
         mapView.setRegion(region, animated: true)

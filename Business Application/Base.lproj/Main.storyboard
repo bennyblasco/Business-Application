@@ -335,10 +335,10 @@
             </objects>
             <point key="canvasLocation" x="3874.4000000000001" y="97.536945812807886"/>
         </scene>
-        <!--View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="M21-Dh-ETF">
             <objects>
-                <viewController id="qOV-ft-bdE" sceneMemberID="viewController">
+                <viewController id="qOV-ft-bdE" customClass="EmailViewController" customModule="Business_Application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hpR-ws-f1G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -361,7 +361,10 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h1u-pF-BEx">
                                                 <rect key="frame" x="0.0" y="45.666666666666657" width="343" height="43.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <connections>
+                                                    <action selector="dismissKeyboard:" destination="qOV-ft-bdE" eventType="editingDidEndOnExit" id="VPy-h6-iNo"/>
+                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0N-Lv-iQX">
                                                 <rect key="frame" x="0.0" y="91" width="343" height="43.666666666666657"/>
@@ -372,7 +375,10 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="22h-p4-V37">
                                                 <rect key="frame" x="0.0" y="136.66666666666666" width="343" height="43.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <connections>
+                                                    <action selector="dismissKeyboard:" destination="qOV-ft-bdE" eventType="editingDidEndOnExit" id="43h-8p-tM8"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -390,7 +396,10 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="qOV-ft-bdE" id="xRv-IA-ko0"/>
+                                                </connections>
                                             </textView>
                                         </subviews>
                                         <constraints>
@@ -402,9 +411,23 @@
                                     <constraint firstAttribute="trailing" secondItem="ysT-DW-nyY" secondAttribute="trailing" id="yUn-CH-txD"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vr-iA-SUr">
+                                <rect key="frame" x="16" y="433" width="343" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="Send Email">
+                                    <color key="titleColor" red="0.0" green="0.29198299890000001" blue="0.72580976630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendEmailWasPressed:" destination="qOV-ft-bdE" eventType="touchUpInside" id="yu8-sP-Yq6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="8vr-iA-SUr" firstAttribute="leading" secondItem="afd-s3-J5c" secondAttribute="leading" constant="16" id="2ad-qo-acC"/>
+                            <constraint firstItem="8vr-iA-SUr" firstAttribute="top" secondItem="1pB-x6-aAK" secondAttribute="bottom" constant="23" id="7y4-Kr-a2X"/>
+                            <constraint firstItem="afd-s3-J5c" firstAttribute="trailing" secondItem="8vr-iA-SUr" secondAttribute="trailing" constant="16" id="AAh-5w-esj"/>
                             <constraint firstItem="7fl-F9-V6z" firstAttribute="leading" secondItem="afd-s3-J5c" secondAttribute="leading" id="NJt-bm-jJb"/>
                             <constraint firstItem="7fl-F9-V6z" firstAttribute="trailing" secondItem="afd-s3-J5c" secondAttribute="trailing" id="NjN-uz-fKO"/>
                             <constraint firstItem="1pB-x6-aAK" firstAttribute="top" secondItem="afd-s3-J5c" secondAttribute="top" constant="20" id="XHb-7h-Kde"/>
@@ -416,6 +439,12 @@
                         <viewLayoutGuide key="safeArea" id="afd-s3-J5c"/>
                     </view>
                     <navigationItem key="navigationItem" id="UYb-mJ-2UW"/>
+                    <connections>
+                        <outlet property="emailField" destination="22h-p4-V37" id="pyN-CI-511"/>
+                        <outlet property="messageField" destination="9Yl-zh-xcI" id="DRu-WI-vAP"/>
+                        <outlet property="nameField" destination="h1u-pF-BEx" id="OzZ-yv-gTc"/>
+                        <outlet property="sendEmailBtn" destination="8vr-iA-SUr" id="7S5-Wv-iBr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aqa-NB-7fe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

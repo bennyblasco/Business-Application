@@ -18,6 +18,7 @@
 		1888D60A24EB3DA900A70B1A /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D60924EB3DA900A70B1A /* ServicesViewController.swift */; };
 		18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */; };
 		18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C4C3250434DB00FB9F8D /* MapKit.framework */; };
+		18B9C4C62505AB3600FB9F8D /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4C52505AB3600FB9F8D /* EmailViewController.swift */; };
 		18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A472500DEB7001357AE /* AboutUsViewController.swift */; };
 		18E62A4B2500F751001357AE /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A4A2500F751001357AE /* PortfolioCollectionViewController.swift */; };
 		18E62A4D2500FAF0001357AE /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E62A4C2500FAF0001357AE /* PortfolioCollectionViewCell.swift */; };
@@ -37,6 +38,7 @@
 		1888D60924EB3DA900A70B1A /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		18B9C4C3250434DB00FB9F8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18B9C4C52505AB3600FB9F8D /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		18E62A472500DEB7001357AE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		18E62A4A2500F751001357AE /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
 		18E62A4C2500FAF0001357AE /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */,
+				18B9C4C52505AB3600FB9F8D /* EmailViewController.swift */,
 			);
 			path = "Contact Us";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
 				18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */,
 				18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */,
+				18B9C4C62505AB3600FB9F8D /* EmailViewController.swift in Sources */,
 				18E62A4D2500FAF0001357AE /* PortfolioCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
