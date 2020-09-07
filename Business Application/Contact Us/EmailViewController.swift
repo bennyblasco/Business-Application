@@ -18,7 +18,7 @@ class EmailViewController: UIViewController, UITextViewDelegate{
         super.viewDidLoad()
 
         sendEmailBtn.layer.cornerRadius = 10
-        
+        self.navigationItem.title = "Email Us"
     }
     @IBAction func dismissKeyboard(_ sender: Any) {
         self.resignFirstResponder()  
