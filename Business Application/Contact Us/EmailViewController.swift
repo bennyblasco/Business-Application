@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import MessageUI
 
-class EmailViewController: UIViewController, UITextViewDelegate{
+class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeViewControllerDelegate{
+    
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var messageField: UITextView!
@@ -33,6 +35,28 @@ class EmailViewController: UIViewController, UITextViewDelegate{
     }
     
     @IBAction func sendEmailWasPressed(_ sender: Any) {
+        let composeVC = MFMailComposeViewController()
+        composeVC.mailComposeDelegate = self
+         
+        // Configure the fields of the interface.
+        composeVC.setToRecipients(["bennyblasco@gmail.com"])
+        composeVC.setSubject("Hello to Techelopers")
+        composeVC.setMessageBody("""
+                                    Name: \(nameField.text!)
+                                    Email: \(emailField.text!)
+                                    Body: \(messageField.text!)
+                                    """, isHTML: false)
+         
+        // Present the view controller modally.
+        self.present(composeVC, animated: true, completion: nil)
     }
     
+    func mailComposeController(controller: MFMailComposeViewController,
+                               didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        // Check the result or perform other tasks.
+        
+        // Dismiss the mail compose view controller.
+        controller.dismiss(animated: true, completion: nil)
+        //self.resignFirstResponder()
+    }
 }

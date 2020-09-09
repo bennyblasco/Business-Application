@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181EAF7C2508DF3D002C6712 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181EAF7B2508DF3D002C6712 /* MessageUI.framework */; };
 		1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852112424E7F02B00FC6B87 /* ServicesTableViewController.swift */; };
 		1852112724E7F15600FC6B87 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852112624E7F15600FC6B87 /* ServicesTableViewCell.swift */; };
 		18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18655C6E24D61647005B70E5 /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181EAF7B2508DF3D002C6712 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1852112424E7F02B00FC6B87 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		1852112624E7F15600FC6B87 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 		18655C6B24D61647005B70E5 /* Business Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181EAF7C2508DF3D002C6712 /* MessageUI.framework in Frameworks */,
 				18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +116,7 @@
 		18B9C4C2250434DB00FB9F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				181EAF7B2508DF3D002C6712 /* MessageUI.framework */,
 				18B9C4C3250434DB00FB9F8D /* MapKit.framework */,
 			);
 			name = Frameworks;
