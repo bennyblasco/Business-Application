@@ -17,8 +17,8 @@ class ContactUsViewController: UIViewController {
     @IBOutlet weak var emailUsBtn: UIButton!
     @IBOutlet weak var socialLinksBtn: UIButton!
     
-    var latitude = 9
-    var longitude = 7.425488000000001
+    var latitude = 9.0643305
+    var longitude = 7.4892974
     
     
     
@@ -29,7 +29,7 @@ class ContactUsViewController: UIViewController {
         emailUsBtn.layer.cornerRadius = 10
         socialLinksBtn.layer.cornerRadius = 10
         
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
         
         let span = MKCoordinateSpan(latitudeDelta: 0.0005, longitudeDelta: 0.0005)
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), span: span)
@@ -42,6 +42,8 @@ class ContactUsViewController: UIViewController {
         pinAnn.title = "My Company"
         pinAnn.subtitle = "Galadimawa, Abuja, Nigeria"
         self.mapView.addAnnotation(pinAnn)
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     @IBAction func directionsBtnWasPressed(_ sender: Any) {
         UIApplication.shared.open(URL(string: "http://maps.apple.com/maps?daddr=\(latitude),\(longitude)")!, options: [:], completionHandler: nil)
