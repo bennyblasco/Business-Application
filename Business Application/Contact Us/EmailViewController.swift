@@ -51,12 +51,9 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
         self.present(composeVC, animated: true, completion: nil)
     }
     
-    func mailComposeController(controller: MFMailComposeViewController,
-                               didFinishWithResult result: MFMailComposeResult, error: NSError?) {
-        // Check the result or perform other tasks.
-        
-        // Dismiss the mail compose view controller.
+    //Mail Compose Controller
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         self.dismiss(animated: true, completion: nil)
-        //self.resignFirstResponder()
     }
 }
