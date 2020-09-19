@@ -29,7 +29,7 @@
                                         <rect key="frame" x="0.0" y="325.66666666666674" width="343" height="275.33333333333326"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evj-Af-Buu">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="43"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="54.333333333333336"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Services">
@@ -39,19 +39,8 @@
                                                     <action selector="serviceBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xsj-A1-8Pc"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-3N-YKN">
-                                                <rect key="frame" x="0.0" y="58" width="343" height="43"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
-                                                <state key="normal" title="Portfolio">
-                                                    <color key="titleColor" red="0.0" green="0.29069873454927586" blue="0.72261734878071071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="portfolioBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Zy-54-hDZ"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npR-0w-6ii">
-                                                <rect key="frame" x="0.0" y="115.99999999999994" width="343" height="43"/>
+                                                <rect key="frame" x="0.0" y="69.333333333333314" width="343" height="54.666666666666657"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="About Us">
@@ -62,7 +51,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFA-r5-jbW">
-                                                <rect key="frame" x="0.0" y="173.99999999999994" width="343" height="43"/>
+                                                <rect key="frame" x="0.0" y="138.99999999999994" width="343" height="54.666666666666657"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Contact Us">
@@ -73,7 +62,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prL-ju-EWg">
-                                                <rect key="frame" x="0.0" y="231.99999999999994" width="343" height="43.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="208.66666666666669" width="343" height="66.666666666666686"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="22"/>
                                                 <state key="normal" title="Social Links">
@@ -112,7 +101,6 @@
                     <connections>
                         <outlet property="aboutUsBtn" destination="npR-0w-6ii" id="xXb-CD-P9d"/>
                         <outlet property="contactUsBtn" destination="DFA-r5-jbW" id="Zlc-tW-e2e"/>
-                        <outlet property="portfolioBtn" destination="Esl-3N-YKN" id="eKk-P5-OEF"/>
                         <outlet property="servicesBtn" destination="evj-Af-Buu" id="EdH-Ed-hQl"/>
                         <outlet property="socialLinksBtn" destination="prL-ju-EWg" id="fsD-m9-u87"/>
                         <outlet property="techelopersImg" destination="xRc-iP-al3" id="yIN-XI-7jk"/>
