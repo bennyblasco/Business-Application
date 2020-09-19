@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         servicesBtn.layer.cornerRadius = 10
-        portfolioBtn.layer.cornerRadius = 10
+        //portfolioBtn.layer.cornerRadius = 10
         aboutUsBtn.layer.cornerRadius = 10
         contactUsBtn.layer.cornerRadius = 10
         socialLinksBtn.layer.cornerRadius = 10
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func serviceBtnWasPressed(_ sender: Any) {
-        self.tabBarController?.selectedIndex = 4
+        self.tabBarController?.selectedIndex = 3
     }
     
     @IBAction func portfolioBtnWasPressed(_ sender: Any) {
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         self.tabBarController?.selectedIndex = 1
     }
     @IBAction func contactUsBtnWasPressed(_ sender: Any) {
-        self.tabBarController?.selectedIndex = 3
+        self.tabBarController?.selectedIndex = 2
     }
     @IBAction func socialLinksBtnWasPressed(_ sender: Any) {
         print("SocialLinks Pressed")
