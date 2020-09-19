@@ -52,6 +52,8 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
     }
     
     //Mail Compose Controller
+    // Improve the compose controller
+    
     
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         self.dismiss(animated: true, completion: nil)
