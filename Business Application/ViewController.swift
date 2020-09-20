@@ -32,9 +32,9 @@ class ViewController: UIViewController {
         self.tabBarController?.selectedIndex = 3
     }
     
-    @IBAction func portfolioBtnWasPressed(_ sender: Any) {
-        self.tabBarController?.selectedIndex = 2
-    }
+    //@IBAction func portfolioBtnWasPressed(_ sender: Any) {
+      //  self.tabBarController?.selectedIndex = 2
+    //}
     @IBAction func aboutUsBtnWasPressed(_ sender: Any) {
         self.tabBarController?.selectedIndex = 1
     }
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         self.tabBarController?.selectedIndex = 2
     }
     @IBAction func socialLinksBtnWasPressed(_ sender: Any) {
-        print("SocialLinks Pressed")
+        
     }
     
     
