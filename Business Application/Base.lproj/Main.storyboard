@@ -70,6 +70,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="socialLinksBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UR5-aS-7Ht"/>
+                                                    <segue destination="btF-qK-XHY" kind="show" id="Phv-d4-8uf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -288,6 +289,7 @@
                                         </state>
                                         <connections>
                                             <action selector="socialLinksBtnWasPressed:" destination="RYy-Qh-BjM" eventType="touchUpInside" id="fV2-fj-DQU"/>
+                                            <segue destination="btF-qK-XHY" kind="show" id="AET-p6-Soh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -437,6 +439,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aqa-NB-7fe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4669.6000000000004" y="97.536945812807886"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="inF-UD-CXI">
+            <objects>
+                <tableViewController id="btF-qK-XHY" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EAD-2U-cjb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="F86-FZ-vNU">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F86-FZ-vNU" id="S2D-E9-51O">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="btF-qK-XHY" id="f28-cI-dG9"/>
+                            <outlet property="delegate" destination="btF-qK-XHY" id="MO8-9J-crH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="UPj-t5-OuK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDf-W4-zQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3888" y="804"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1ke-ED-iMN">
+            <objects>
+                <viewController id="7ik-4w-jq1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JBX-zK-2Rm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ciu-b3-18t"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZa-4V-4hb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4689" y="802"/>
         </scene>
         <!--About Us-->
         <scene sceneID="HPv-Jb-kss">
@@ -709,6 +755,9 @@
             <point key="canvasLocation" x="2932" y="97.536945812807886"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AET-p6-Soh"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="2560" height="1600"/>
         <image name="Image1" width="4288" height="2848"/>
