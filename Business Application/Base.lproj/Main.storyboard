@@ -439,21 +439,51 @@
             </objects>
             <point key="canvasLocation" x="4669.6000000000004" y="97.536945812807886"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Social Table View Controller-->
         <scene sceneID="inF-UD-CXI">
             <objects>
-                <tableViewController id="btF-qK-XHY" sceneMemberID="viewController">
+                <tableViewController id="btF-qK-XHY" customClass="SocialTableViewController" customModule="Business_Application" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EAD-2U-cjb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="F86-FZ-vNU">
-                                <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="F86-FZ-vNU" customClass="SocialTableViewCell" customModule="Business_Application" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F86-FZ-vNU" id="S2D-E9-51O">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="QBA-cS-hW4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SocialIcon1" translatesAutoresizingMaskIntoConstraints="NO" id="0At-1C-dfL">
+                                            <rect key="frame" x="0.0" y="0.0" width="146" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="iKK-Nl-kbv"/>
+                                                <constraint firstAttribute="width" constant="146" id="q5y-1g-Sap"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXb-fR-AWG">
+                                            <rect key="frame" x="154" y="32" width="127" height="36"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QBA-cS-hW4" firstAttribute="leading" secondItem="S2D-E9-51O" secondAttribute="leading" id="8Ix-pQ-q49"/>
+                                        <constraint firstAttribute="trailing" secondItem="QBA-cS-hW4" secondAttribute="trailing" id="BPb-fR-rpw"/>
+                                        <constraint firstItem="0At-1C-dfL" firstAttribute="top" secondItem="S2D-E9-51O" secondAttribute="top" id="BSL-8o-6tC"/>
+                                        <constraint firstItem="QBA-cS-hW4" firstAttribute="top" secondItem="S2D-E9-51O" secondAttribute="top" id="CJN-Zu-VLh"/>
+                                        <constraint firstItem="fXb-fR-AWG" firstAttribute="top" secondItem="S2D-E9-51O" secondAttribute="topMargin" constant="21" id="HPa-LV-QQo"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="fXb-fR-AWG" secondAttribute="bottom" constant="21" id="Jvc-ol-XJU"/>
+                                        <constraint firstAttribute="bottom" secondItem="0At-1C-dfL" secondAttribute="bottom" id="QDx-wz-ZGq"/>
+                                        <constraint firstItem="fXb-fR-AWG" firstAttribute="leading" secondItem="0At-1C-dfL" secondAttribute="trailing" constant="8" id="axX-D0-0mK"/>
+                                        <constraint firstItem="0At-1C-dfL" firstAttribute="leading" secondItem="S2D-E9-51O" secondAttribute="leading" id="iJs-xw-KuH"/>
+                                        <constraint firstAttribute="bottom" secondItem="QBA-cS-hW4" secondAttribute="bottom" id="y7o-FG-zVY"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="7ik-4w-jq1" kind="show" id="G6r-yR-TUX"/>
@@ -469,7 +499,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDf-W4-zQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1994" y="873"/>
+            <point key="canvasLocation" x="1992.8" y="872.66009852216757"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1ke-ED-iMN">
@@ -696,6 +726,7 @@
     <resources>
         <image name="Background" width="2560" height="1600"/>
         <image name="Image1" width="4288" height="2848"/>
+        <image name="SocialIcon1" width="512" height="512"/>
         <image name="Tab1" width="30" height="30"/>
         <image name="Tab2" width="30" height="30"/>
         <image name="Tab3" width="30" height="30"/>

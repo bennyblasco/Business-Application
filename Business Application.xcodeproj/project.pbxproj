@@ -16,6 +16,8 @@
 		18655C7624D61647005B70E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7424D61647005B70E5 /* Main.storyboard */; };
 		18655C7824D61651005B70E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7724D61651005B70E5 /* Assets.xcassets */; };
 		18655C7B24D61651005B70E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7924D61651005B70E5 /* LaunchScreen.storyboard */; };
+		1885A7E02521386300DFB1BD /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */; };
+		1885A7E32521389900DFB1BD /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */; };
 		1888D60A24EB3DA900A70B1A /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D60924EB3DA900A70B1A /* ServicesViewController.swift */; };
 		18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */; };
 		18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C4C3250434DB00FB9F8D /* MapKit.framework */; };
@@ -37,6 +39,8 @@
 		18655C7724D61651005B70E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18655C7A24D61651005B70E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18655C7C24D61651005B70E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
 		1888D60924EB3DA900A70B1A /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		18B9C4C3250434DB00FB9F8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +76,7 @@
 		18655C6224D61647005B70E5 = {
 			isa = PBXGroup;
 			children = (
+				1885A7DE2521383C00DFB1BD /* Social  */,
 				18655C6D24D61647005B70E5 /* Business Application */,
 				18655C6C24D61647005B70E5 /* Products */,
 				18B9C4C2250434DB00FB9F8D /* Frameworks */,
@@ -102,6 +107,15 @@
 				18655C7C24D61651005B70E5 /* Info.plist */,
 			);
 			path = "Business Application";
+			sourceTree = "<group>";
+		};
+		1885A7DE2521383C00DFB1BD /* Social  */ = {
+			isa = PBXGroup;
+			children = (
+				1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */,
+				1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */,
+			);
+			path = "Social ";
 			sourceTree = "<group>";
 		};
 		18B9C4BF250430A400FB9F8D /* Contact Us */ = {
@@ -214,11 +228,13 @@
 				1852112724E7F15600FC6B87 /* ServicesTableViewCell.swift in Sources */,
 				18655C7324D61647005B70E5 /* ViewController.swift in Sources */,
 				18E62A4B2500F751001357AE /* PortfolioCollectionViewController.swift in Sources */,
+				1885A7E02521386300DFB1BD /* SocialTableViewController.swift in Sources */,
 				1852112524E7F02B00FC6B87 /* ServicesTableViewController.swift in Sources */,
 				18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */,
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
 				18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */,
 				18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */,
+				1885A7E32521389900DFB1BD /* SocialTableViewCell.swift in Sources */,
 				18B9C4C62505AB3600FB9F8D /* EmailViewController.swift in Sources */,
 				18E62A4D2500FAF0001357AE /* PortfolioCollectionViewCell.swift in Sources */,
 			);
