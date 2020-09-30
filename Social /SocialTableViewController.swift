@@ -9,6 +9,8 @@
 import UIKit
 
 class SocialTableViewController: UITableViewController {
+    
+    var imageList = ["SocialIcon1","SocialIcon2","SocialIcon3","SocialIcon4","SocialIcon5","SocialIcon6"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
