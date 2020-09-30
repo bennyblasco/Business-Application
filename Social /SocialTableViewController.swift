@@ -11,6 +11,7 @@ import UIKit
 class SocialTableViewController: UITableViewController {
     
     var imageList = ["SocialIcon1","SocialIcon2","SocialIcon3","SocialIcon4","SocialIcon5","SocialIcon6"]
+    var titleList = ["Facebook","Twitter","Google+","LinkedIn","Youtube","Website"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +27,12 @@ class SocialTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return titleList.count
     }
 
     /*
