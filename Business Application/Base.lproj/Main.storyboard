@@ -448,7 +448,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="F86-FZ-vNU" customClass="SocialTableViewCell" customModule="Business_Application" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="F86-FZ-vNU" customClass="SocialTableViewCell" customModule="Business_Application" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F86-FZ-vNU" id="S2D-E9-51O">
@@ -486,6 +486,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="cellImage" destination="0At-1C-dfL" id="qbO-Gk-9ea"/>
+                                    <outlet property="cellLabel" destination="fXb-fR-AWG" id="pz4-ca-5d4"/>
                                     <segue destination="7ik-4w-jq1" kind="show" id="G6r-yR-TUX"/>
                                 </connections>
                             </tableViewCell>
