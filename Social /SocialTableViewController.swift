@@ -35,7 +35,7 @@ class SocialTableViewController: UITableViewController {
         return titleList.count
     }
 
-    /*
+  
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
@@ -43,7 +43,7 @@ class SocialTableViewController: UITableViewController {
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
