@@ -37,9 +37,12 @@ class SocialTableViewController: UITableViewController {
 
   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SocialTableViewCell
 
         // Configure the cell...
+        
+        cell.cellImage.image = UIImage(named: imageList[indexPath.row])
+        cell.cellLabel.text = titleList[indexPath.row]
 
         return cell
     }
