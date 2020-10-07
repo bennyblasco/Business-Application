@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         contactUsBtn.layer.cornerRadius = 10
         socialLinksBtn.layer.cornerRadius = 10
         techelopersImg.layer.cornerRadius = 20
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
     }
 
     @IBAction func serviceBtnWasPressed(_ sender: Any) {
