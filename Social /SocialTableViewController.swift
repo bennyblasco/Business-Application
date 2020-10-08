@@ -23,6 +23,8 @@ class SocialTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         tableView.backgroundView = UIImageView(image: UIImage(named: "Background"))
         self.navigationItem.title = "Social Links"
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     // MARK: - Table view data source
