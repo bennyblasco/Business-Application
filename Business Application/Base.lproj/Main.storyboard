@@ -510,14 +510,57 @@
                     <view key="view" contentMode="scaleToFill" id="JBX-zK-2Rm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J8P-5M-DtD">
+                                <rect key="frame" x="0.0" y="597" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Refresh" id="PpW-gj-ryJ">
+                                        <connections>
+                                            <action selector="reload" destination="Uge-wo-8ZO" id="dzh-tj-Xjd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="63y-b2-2yB">
+                                        <connections>
+                                            <action selector="stopLoading" destination="Uge-wo-8ZO" id="BC2-FH-eVA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="K4v-2V-8Rm"/>
+                                    <barButtonItem title="Back" id="Pw5-yk-BDc">
+                                        <connections>
+                                            <action selector="goBack" destination="Uge-wo-8ZO" id="lZN-5C-1Wq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Forward" id="oPo-b5-B2J">
+                                        <connections>
+                                            <action selector="goForward" destination="Uge-wo-8ZO" id="GMW-3w-Lt6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uge-wo-8ZO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="597" id="fS4-WI-2cI"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Uge-wo-8ZO" firstAttribute="trailing" secondItem="J8P-5M-DtD" secondAttribute="trailing" id="70t-in-Q6F"/>
+                            <constraint firstItem="J8P-5M-DtD" firstAttribute="top" secondItem="Uge-wo-8ZO" secondAttribute="bottom" id="FLt-HB-TJH"/>
+                            <constraint firstItem="Uge-wo-8ZO" firstAttribute="top" secondItem="ciu-b3-18t" secondAttribute="top" id="Jws-pt-4pa"/>
+                            <constraint firstItem="Uge-wo-8ZO" firstAttribute="leading" secondItem="ciu-b3-18t" secondAttribute="leading" id="QJx-bE-9D5"/>
+                            <constraint firstItem="Uge-wo-8ZO" firstAttribute="leading" secondItem="J8P-5M-DtD" secondAttribute="leading" id="gwe-gV-3kL"/>
+                            <constraint firstItem="Uge-wo-8ZO" firstAttribute="trailing" secondItem="ciu-b3-18t" secondAttribute="trailing" id="k1e-X2-5Kq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ciu-b3-18t"/>
                     </view>
                     <navigationItem key="navigationItem" id="cHa-0e-43C"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZa-4V-4hb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2897" y="873"/>
+            <point key="canvasLocation" x="2896.8000000000002" y="872.66009852216757"/>
         </scene>
         <!--About Us-->
         <scene sceneID="HPv-Jb-kss">
