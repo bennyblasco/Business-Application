@@ -18,6 +18,7 @@
 		18655C7B24D61651005B70E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18655C7924D61651005B70E5 /* LaunchScreen.storyboard */; };
 		1885A7E02521386300DFB1BD /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */; };
 		1885A7E32521389900DFB1BD /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */; };
+		1885A8262537441500DFB1BD /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A8252537441500DFB1BD /* SocialViewController.swift */; };
 		1888D60A24EB3DA900A70B1A /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D60924EB3DA900A70B1A /* ServicesViewController.swift */; };
 		18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */; };
 		18B9C4C4250434DB00FB9F8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B9C4C3250434DB00FB9F8D /* MapKit.framework */; };
@@ -41,6 +42,7 @@
 		18655C7C24D61651005B70E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
 		1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		1885A8252537441500DFB1BD /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		1888D60924EB3DA900A70B1A /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		18B9C4C02504310800FB9F8D /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		18B9C4C3250434DB00FB9F8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 			children = (
 				1885A7DF2521386300DFB1BD /* SocialTableViewController.swift */,
 				1885A7E22521389900DFB1BD /* SocialTableViewCell.swift */,
+				1885A8252537441500DFB1BD /* SocialViewController.swift */,
 			);
 			path = "Social ";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				18E62A482500DEB7001357AE /* AboutUsViewController.swift in Sources */,
 				18655C6F24D61647005B70E5 /* AppDelegate.swift in Sources */,
 				18B9C4C12504310800FB9F8D /* ContactUsViewController.swift in Sources */,
+				1885A8262537441500DFB1BD /* SocialViewController.swift in Sources */,
 				18655C7124D61647005B70E5 /* SceneDelegate.swift in Sources */,
 				1885A7E32521389900DFB1BD /* SocialTableViewCell.swift in Sources */,
 				18B9C4C62505AB3600FB9F8D /* EmailViewController.swift in Sources */,

@@ -544,13 +544,19 @@
                                     <constraint firstAttribute="height" constant="597" id="fS4-WI-2cI"/>
                                 </constraints>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Ipj-p7-zex">
+                                <rect key="frame" x="169" y="302" width="37" height="37"/>
+                                <color key="color" red="0.01401716756" green="0.21505477510000001" blue="0.422430203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Uge-wo-8ZO" firstAttribute="trailing" secondItem="J8P-5M-DtD" secondAttribute="trailing" id="70t-in-Q6F"/>
+                            <constraint firstItem="Ipj-p7-zex" firstAttribute="centerY" secondItem="JBX-zK-2Rm" secondAttribute="centerY" id="8lf-Hi-Tcl"/>
                             <constraint firstItem="J8P-5M-DtD" firstAttribute="top" secondItem="Uge-wo-8ZO" secondAttribute="bottom" id="FLt-HB-TJH"/>
                             <constraint firstItem="Uge-wo-8ZO" firstAttribute="top" secondItem="ciu-b3-18t" secondAttribute="top" id="Jws-pt-4pa"/>
                             <constraint firstItem="Uge-wo-8ZO" firstAttribute="leading" secondItem="ciu-b3-18t" secondAttribute="leading" id="QJx-bE-9D5"/>
+                            <constraint firstItem="Ipj-p7-zex" firstAttribute="centerX" secondItem="JBX-zK-2Rm" secondAttribute="centerX" id="azl-sZ-7ct"/>
                             <constraint firstItem="Uge-wo-8ZO" firstAttribute="leading" secondItem="J8P-5M-DtD" secondAttribute="leading" id="gwe-gV-3kL"/>
                             <constraint firstItem="Uge-wo-8ZO" firstAttribute="trailing" secondItem="ciu-b3-18t" secondAttribute="trailing" id="k1e-X2-5Kq"/>
                         </constraints>
