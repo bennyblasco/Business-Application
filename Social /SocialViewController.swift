@@ -7,24 +7,30 @@
 //
 
 import UIKit
+import WebKit
 
-class SocialViewController: UIViewController {
+class SocialViewController: UIViewController, WKNavigationDelegate {
 
+    
+    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var actInd: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+    if let host = navigationAction.request.url?.host {
+        if host == "www.apple.com" {
+            decisionHandler(.allow)
+            return
+        }
     }
-    */
+    }
+ */
+
 
 }
